@@ -1,76 +1,69 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>William Cardoso - Portfólio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Meu Portfólio Incrível</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1 class="animated fadeInDown">William Cardoso</h1>
-            <p class="animated fadeInUp">Analista e Desenvolvedor de Sistemas</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#skills">Habilidades</a></li>
-                    <li><a href="#projects">Projetos</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
-            </nav>
+        <nav>
+            <div class="logo">Meu Logo</div>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>Bem-vindo ao Meu Portfólio</h1>
+            <p>Desenvolvedor Web | Criador de Experiências Únicas</p>
         </div>
     </header>
     
-    <section id="about">
-        <div class="container">
-            <img src="images/profile.jpg" alt="William Cardoso" class="profile-img animated fadeInLeft">
-            <h2 class="animated fadeInRight">Sobre Mim</h2>
-            <p class="animated fadeInUp">Olá, sou William Cardoso. Estou buscando oportunidades de crescimento na área de análise e desenvolvimento de sistemas. Tenho experiência em JavaScript, Node.js, HTML, CSS, C++, MySQL e Pacote Office.</p>
+    <section id="sobre" class="container">
+        <h2>Sobre Mim</h2>
+        <p>Sou um desenvolvedor web apaixonado por criar soluções inovadoras e impactantes. Tenho experiência em diversas tecnologias e adoro enfrentar novos desafios.</p>
+    </section>
+    
+    <section id="projetos" class="container">
+        <h2>Projetos</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Projeto 1</h3>
+                <p>Descrição do projeto 1.</p>
+            </div>
+            <div class="project-card">
+                <h3>Projeto 2</h3>
+                <p>Descrição do projeto 2.</p>
+            </div>
+            <div class="project-card">
+                <h3>Projeto 3</h3>
+                <p>Descrição do projeto 3.</p>
+            </div>
         </div>
     </section>
     
-    <section id="skills">
-        <div class="container">
-            <h2 class="animated fadeInRight">Habilidades</h2>
-            <ul class="skills-list animated fadeInUp">
-                <li>JavaScript</li>
-                <li>Node.js</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>C++</li>
-                <li>MySQL</li>
-                <li>Pacote Office</li>
-            </ul>
-        </div>
-    </section>
-    
-    <section id="projects">
-        <div class="container">
-            <h2 class="animated fadeInLeft">Projetos</h2>
-            <ul class="projects-list animated fadeInUp">
-                <li><a href="#">Projeto 1</a></li>
-                <li><a href="#">Projeto 2</a></li>
-                <li><a href="#">Projeto 3</a></li>
-            </ul>
-        </div>
-    </section>
-    
-    <section id="contact">
-        <div class="container">
-            <h2 class="animated fadeInRight">Contato</h2>
-            <p class="animated fadeInUp">Email: <a href="mailto:william.cardoso@example.com">william.cardoso@example.com</a></p>
-            <p class="animated fadeInUp">LinkedIn: <a href="https://linkedin.com/in/william-cardoso" target="_blank">linkedin.com/in/william-cardoso</a></p>
-        </div>
+    <section id="contato" class="container">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
     </section>
     
     <footer>
-        <div class="container">
-            <p>&copy; 2024 William Cardoso</p>
-        </div>
+        <p>&copy; 2024 Meu Nome. Todos os direitos reservados.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
